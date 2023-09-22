@@ -24,6 +24,19 @@
 			<br>Mes: Noviembre
 			<br>Año: 2020
 			TextoLargo;
+
+
+			$dolares = 999.99;
+			$tipoDeCambio = 1.2;
+			$euros = $dolares * $tipoDeCambio;
+
+
+			printf("<br>Con printf(): El importe en euros es : %.2f" , $euros);
+
+			echo "<br>";
+			echo "Con round(): El importe en euros es : " . round($euros,2);
+
+
 		?>
 	</body>
 </html>
